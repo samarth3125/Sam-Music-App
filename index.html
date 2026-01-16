@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam Music App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+         <ul>
+            <li class="brand"><img src="./logo.jpeg" alt="Sam Music App">Sam Music App</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+
+        </ul>
+
+    </nav>
+    <div class="container">
+        
+        <div class="songList"></div>
+        <h1 class="h11">Welcome to Sam Music App</h1>
+        <div class="songItemContainer">
+            <img src="./images/img1.png" alt="1" class="songItemImg">
+            <span>Haseen</span>
+            <span class="songListPlay"><span>02.55</span><i class="fa-solid fa-play timestamp songItemPlay" data-index="0" ></i></span>
+        </div>
+             <div class="songItemContainer">
+            <img src="./images/img2.jpeg" alt="1" class="songItemImg">
+            <span>Pal Pal</span>
+            <span class="songListPlay"><span>03.28</span><i class="fa-solid fa-play timestamp songItemPlay" data-index="1" ></i></span>
+        </div>
+             <div class="songItemContainer">
+            <img src="./images/img3.jpeg" alt="1" class="songItemImg">
+            <span>For A Reason</span>
+            <span class="songListPlay"><span>03.08</span><i class="fa-solid fa-play timestamp songItemPlay" data-index="2" ></i></span>
+        </div>
+             <div class="songItemContainer">
+            <img src="./images/img4.jpeg" alt="1" class="songItemImg">
+            <span>Softly</span>
+            <span class="songListPlay"><span>02.50</span><i class="fa-solid fa-play timestamp songItemPlay" data-index="3" ></i></span>
+        </div>
+             <div class="songItemContainer">
+            <img src="./images/img5.jpeg" alt="1" class="songItemImg">
+            <span>Maan Mera</span>
+            <span class="songListPlay"><span>03.54</span><i class="fa-solid fa-play timestamp songItemPlay" data-index="4" ></i></span>
+        </div>
+             <div class="songItemContainer">
+            <img src="./images/img6.jpeg" alt="1" class="songItemImg">
+            <span>Gal Sun</span>
+            <span class="songListPlay"><span>03.16</span><i class="fa-solid fa-play timestamp songItemPlay" data-index="5" ></i></span>
+        </div>
+         
+        <div class="songBanner"></div>
+      </div>
+<div class="bottom">
+    <input type="range" class="range" id="myprogressbar" value="0" max="100">
+    <div class="icons">
+
+        <i class="fa-solid fa-backward-step" id="previous"></i>
+        <i class="fa-solid fa-play" id="masterPlay"></i>
+        <i class="fa-solid fa-forward-step" id="next"></i>
+</div>
+<div class="songinfo">
+    <img src="playing.gif" alt="" width="70px" height="40px" id="gif">Haseen
+</div>
+</div>
+<script src="https://kit.fontawesome.com/20a1b5f0ad.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
